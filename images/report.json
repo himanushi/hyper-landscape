@@ -1,0 +1,40 @@
+{
+  "$id": "1",
+  "Resolution": 1024,
+  "NodeCount": 4,
+  "Result": "Success",
+  "StartTime": "2025-12-13T23:36:23.8123748+09:00",
+  "EndTime": "2025-12-13T23:36:26.0503773+09:00",
+  "Duration": "00:00:02.2380025",
+  "SecondsTaken": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "Item1": "Rugged",
+        "Item2": "00:00:00.7110000"
+      },
+      {
+        "$id": "4",
+        "Item1": "Erosion",
+        "Item2": "00:00:00.1460000"
+      },
+      {
+        "$id": "5",
+        "Item1": "Rivers",
+        "Item2": "00:00:00.8860000"
+      },
+      {
+        "$id": "6",
+        "Item1": "Export",
+        "Item2": "00:00:00.0010000"
+      }
+    ]
+  },
+  "FastestNode": {
+    "$ref": "6"
+  },
+  "SlowestNode": {
+    "$ref": "5"
+  }
+}
